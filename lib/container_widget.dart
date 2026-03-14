@@ -10,19 +10,19 @@ class IndianFlag extends StatelessWidget {
             height: 80,
             width: 160,
             decoration: BoxDecoration(
-                color:Colors.blue,
+                color:Colors.yellow,
                 borderRadius: BorderRadius.all(Radius.circular(18)),
-                gradient: LinearGradient(
-                  colors: [Colors.orange,Colors.white,Colors.green],
-                  begin: Alignment.topCenter,
-                  end: Alignment.bottomCenter,
-                )
+                // gradient: LinearGradient(
+                //   colors: [Colors.yellow,Colors.white,Colors.green],
+                //   begin: Alignment.topCenter,
+                //   end: Alignment.bottomCenter,
+                // )
             ),
             child: Center(
               child: Text(
-                "INDIA",
+                "CSK",
                 style: TextStyle(
-                  color: Colors.blue,
+                  color: Colors.black,
                   fontWeight: FontWeight.bold,
                   fontSize: 18,
                 ),
